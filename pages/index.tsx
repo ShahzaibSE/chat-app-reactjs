@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import React, {useContext} from 'react';
+import {globalContext} from '../context/index';
+import {useRouter} from 'next/router';
 
-const Home: NextPage = () => {
+const Auth = () => {
   return <div className='background'>auth</div>
 }
 
-export default Home
+export default Auth
